@@ -1,0 +1,68 @@
+ Lab02
+
+ Timestamp is 633174b0 (Mon Sep 26 17:45:20 2022)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001058H .text$mn                CODE
+ 0002:00000000 00000144H .rdata                  DATA
+ 0002:00000143 00000000H .edata                  DATA
+ 0002:00000144 00000156H .rdata$zzzdbg           DATA
+ 0003:00000000 00000108H .data                   DATA
+ 0004:00000000 00000030H .idata$5                DATA
+ 0004:00000030 00000014H .idata$2                DATA
+ 0004:00000044 00000014H .idata$3                DATA
+ 0004:00000058 00000030H .idata$4                DATA
+ 0004:00000088 0000011eH .idata$6                DATA
+ 0005:00000000 00000170H .rsrc$01                DATA
+ 0005:00000170 000002ccH .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___AbsoluteZero            00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table  00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table_size 00000000     <absolute>
+ 0000:00000000       ___arm64x_native_entrypoint 00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata 00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata_count 00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___enclave_config          00000000     <absolute>
+ 0000:00000000       ___guard_check_icall_a64n_fptr 00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_count     00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_table     00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___guard_flags             00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat_copy 00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___volatile_metadata       00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points 00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points_count 00000000     <absolute>
+ 0001:00000010       _main@0                    00401010 f   main.obj
+ 0001:0000004d       _ExitProcess@4             0040104d f   kernel32:KERNEL32.dll
+ 0004:00000000       __imp__ExitProcess@4       00405000     kernel32:KERNEL32.dll
+ 0004:00000004       \177KERNEL32_NULL_THUNK_DATA 00405004     kernel32:KERNEL32.dll
+ 0004:00000030       __IMPORT_DESCRIPTOR_KERNEL32 00405030     kernel32:KERNEL32.dll
+ 0004:00000044       __NULL_IMPORT_DESCRIPTOR   00405044     kernel32:KERNEL32.dll
+
+ entry point at        0001:00000005
+
+ Static symbols
+
+ 0000:ffff8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0001:00000010       $$000000                   00401010     main.obj
+ 0003:00000000       Value1                     00404000     main.obj
+ 0003:00000001       Value2                     00404001     main.obj
+ 0003:00000002       Value3                     00404002     main.obj
+ 0003:00000003       Result                     00404003     main.obj
+ 0004:00000096       .idata$6                   00405096     kernel32:KERNEL32.dll
+ 0005:00000170       $R000000                   00406170     * linker generated manifest res *
