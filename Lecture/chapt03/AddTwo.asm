@@ -2,8 +2,8 @@
 ; Chapter 3 example
 
 .386
-.model flat, stdcall
-.stack 4096
+.model flat, stdcall	; select the program's mrmory model and identify the calling convention.
+.stack 4096				; sets aside 4096 bytes of storage for the runtimes stack
 ExitProcess PROTO, dwExitCod:DWORD
 
 .code 

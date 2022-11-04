@@ -1,6 +1,9 @@
 ; saving the results of our addition in a variable named sum.
 
-include Irvine32.inc
+.386
+.model flat, stdcall
+.stack 4096
+ExitProcess PROTO, dwExitCode: DWORD
 
 .data
 sum DWORD 0
